@@ -247,6 +247,7 @@ html,body,.swiper-container,.swiper-slide{
     opacity: 0;
     color: white;
     font-size: .23rem;
+    z-index: 10;
 }
 #page02 .bg-nva li:nth-child(1) span {
     -webkit-animation: bounceInDown 1s 3s 1 both;
