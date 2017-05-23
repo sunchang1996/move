@@ -230,6 +230,7 @@ html,body,.swiper-container,.swiper-slide{
     width: 1.1rem;
     height: 100%;
     opacity: 0;
+    z-index: 0;
 }
 #page02 .i-bg{
     -webkit-animation: rubberBand 1s 4s 1 both;
@@ -332,6 +333,7 @@ html,body,.swiper-container,.swiper-slide{
     width: 1.1rem;
     height: 100%;
     opacity: 0;
+    z-index: 0;
 }
 .page03 .list{
     position: absolute;
@@ -469,10 +471,11 @@ html,body,.swiper-container,.swiper-slide{
     background: rgb(245, 91, 46);
     position: absolute;
     top:0;
-    left: 2.1rem;
+    left: 2.05rem;
     width: 1.1rem;
     height: 100%;
     opacity: 0;
+    z-index: 0;
 }
 /*five*/
 #page05 .class-bg-a .bg-three{
@@ -556,10 +559,11 @@ html,body,.swiper-container,.swiper-slide{
     background: rgb(245, 91, 46);
     position: absolute;
     top:0;
-    left: 3.13rem;
+    left: 3.14rem;
     width: 1.1rem;
     height: 100%;
     opacity: 0;
+    z-index: 0;
 }
 /*six*/
 #page06 .class-bg-a .bg-three{
