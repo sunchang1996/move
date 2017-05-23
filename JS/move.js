@@ -31,3 +31,24 @@ var mySwiper = new Swiper('.swiper-container',{
         })
     }
 });
+
+var oMusic = document.getElementById('music'),
+    audioMusic = document.getElementById('audioMusic');
+setTimeout(function(){
+    audioMusic.play();
+    audioMusic.addEventListener('canplay',function(){
+        oMusic.className = 'music rotate';
+    })
+},1000);
+oMusic.onclick = function(){
+    if(audioMusic.paused){
+        audioMusic.play();
+        oMusic.className = 'music rotate';
+        oMusic.style.backgroundImage = 'url("image/music1.png")';
+    }else{
+        audioMusic.pause();
+        oMusic.className = 'music';
+        oMusic.style.backgroundImage = 'url("image/music2.png")';
+    }
+};
+

@@ -2,18 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>移动端简历</title>
     <link rel="stylesheet" href="CSS/reset.min.css">
     <link rel="stylesheet" href="CSS/swiper.min.css">
     <link rel="stylesheet" href="CSS/index.css">
 </head>
 <body>
+<div class="music" id="music"></div>
+<audio src="audio/chantal kreviazuk - leaving on a jet plane.mp3" id="audioMusic" preload="none" loop></audio>
 <div class="swiper-container">
     <div class="swiper-wrapper">
         <div class="swiper-slide  page1">
-            <div class="cmp-1">
-
-            </div>
             <div class="cmp shape" id="cim-2">
                 <div class="cmp3">
                     <span class="text">个人简历</span>
@@ -69,7 +70,6 @@
                 <li>出生年月: <span>1995年2月27日</span></li>
                 <li>学历: <span>本科</span></li>
                 <li>毕业学校: <span>苏州科技大学</span></li>
-                <li>专业: <span>物流管理</span></li>
                 <li>爱好: <span>篮球🏀、健身</span></li>
 
             </ul>
@@ -102,7 +102,15 @@
                     </li>
                 </ul>
             </div>
-
+            <ul class="list">
+                <li>HTML5: <span></span></li>
+                <li>&nbsp;CSS3:&nbsp;&nbsp;<span></span></li>
+                <li>&nbsp;&nbsp;  JS: &nbsp;&nbsp;&nbsp;&nbsp;<span></span></li>
+                <li>&nbsp; ES6:&nbsp;&nbsp;&nbsp; <span></span></li>
+                <li>&nbsp; Vue:&nbsp;&nbsp;&nbsp; <span></span></li>
+                <li>&nbsp;React:&nbsp;&nbsp;<span></span></li>
+                <li>&nbsp;Node:&nbsp;&nbsp;<span></span> </li>
+            </ul>
         </div>
         <div class="swiper-slide page04">
             <div class="cmp-1">
@@ -203,13 +211,10 @@
     </div>
     <div class="swiper-pagination"></div>
 </div>
-<div id="music" class="music">
-    <audio id="music-audio" class="audio" src="">    </audio>
-    <div class="control">
-            <div class="control-after"></div>
-    </div>
-</div>
+
+<div class="arrow"></div>
 <script src="JS/swiper.min.js"></script>
+<script src="JS/fastclick.min.js"></script>
 <script src="JS/move.js"></script>
 </body>
 </html>

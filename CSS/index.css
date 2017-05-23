@@ -133,34 +133,6 @@ html,body,.swiper-container,.swiper-slide{
     width: 100%;
     height: 100%;
 }
-/*music */
-.music{
-    width: 1rem;
-    height: 1rem;
-    position: absolute;
-    right: .2rem;
-    top: .2rem;
-    z-index: 100;
-}
-.music .control{
-    width: 1rem;
-    height: 1rem;
-    background: url("../image/music_m.gif") no-repeat center center;
-    background-size: contain;
-}
-.music .control .control-after{
-    width: .5rem;
-    height: .5rem;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    background: url("../image/music.png") transparent no-repeat center center;
-    background-size: 100%;
-    z-index: -1;
-}
 /* two */
 .class-bg-a {
     width: 5.5rem ;
@@ -204,7 +176,7 @@ html,body,.swiper-container,.swiper-slide{
     width: 2.2rem;
     height: 2.2rem;
     position: absolute;
-    top: 1.35rem;
+    top: 1.5rem;
     left: 2rem;
 }
 .page02 .logo .logo-top{
@@ -223,6 +195,7 @@ html,body,.swiper-container,.swiper-slide{
     top: 3.9rem;
     left: 1.1rem;
     z-index: 0;
+    font-size: 0;
 }
 .bg-five .two-b{
     width: 100%;
@@ -238,6 +211,7 @@ html,body,.swiper-container,.swiper-slide{
     position: absolute;
     top: 0;
     left: 0;
+    font-size: 0;
 }
 .bg-nva .cmp-inner{
     margin-left: .1rem;
@@ -287,7 +261,7 @@ html,body,.swiper-container,.swiper-slide{
 
 .aside {
     position: absolute;
-    top: 5.2rem;
+    top: 5.3rem;
     left: 1.8rem;
     color: white;
     opacity: 0;
@@ -354,6 +328,50 @@ html,body,.swiper-container,.swiper-slide{
     height: 100%;
     opacity: 0;
 }
+.page03 .list{
+    position: absolute;
+    top:3rem;
+    left: 1.2rem;
+    font-size: .3rem;
+    color: aqua;
+}
+.page03 .list li{
+    margin-bottom: .5rem;
+    background-color: white;
+    width: 4rem;
+    opacity: 0;
+}
+#page03 .list li{
+    -webkit-animation: slideInLeft 1s 4s 1 both;
+    animation: slideInLeft 1s 4s 1 both;
+}
+.page03 .list li span{
+    display: inline-block;
+    width: 2rem;
+    height: .2rem;
+    background: red;
+}
+.page03 .list li:nth-child(1) span{
+    width: 2.6rem;
+}
+.page03 .list li:nth-child(2) span{
+    width: 2.6rem;
+}
+.page03 .list li:nth-child(3) span{
+    width: 2.7rem;
+}
+.page03 .list li:nth-child(4) span{
+    width: 2.2rem;
+}
+.page03 .list li:nth-child(5) span{
+    width: 2.4rem;
+}
+.page03 .list li:nth-child(6) span{
+    width: 2.4rem;
+}
+.page03 .list li:nth-child(7) span{
+    width: 2rem;
+}
 /*four*/
 #page04 .class-bg-a .bg-three{
     animation: fadeInUp 1s 1s 1 both;
@@ -387,6 +405,7 @@ html,body,.swiper-container,.swiper-slide{
     height: 100%;
     opacity: 0;
 }
+
 #page04 .item .image {
     -webkit-animation: slideInDown 1s 4s 1 both;
     animation: slideInDown 1s 4s 1 both;
@@ -406,7 +425,7 @@ html,body,.swiper-container,.swiper-slide{
 }
 .page04 .footer{
     position: absolute;
-    top:8.6rem;
+    top: 8.6rem;
     font-size: .3rem;
     left: 1.3rem;
     color: #b9def0;
@@ -570,6 +589,8 @@ html,body,.swiper-container,.swiper-slide{
 .page06 .last{
     margin: .2rem .5rem;
     opacity: 0;
+    width: 3rem;
+    height: 3rem;
 }
 .page06 .email{
     opacity: 0;
@@ -600,6 +621,25 @@ html,body,.swiper-container,.swiper-slide{
 #page06 .wx{
     -webkit-animation: slideInLeft 1s 2.5s 1 both;
     animation: slideInLeft 1s 2.5s 1 both;
+}
+
+/*music*/
+.music{
+    z-index: 9;
+    position: absolute;
+    top:.3rem;
+    right:.3rem;
+    width:.58rem;
+    height:.58rem;
+    background-image:url("../image/music1.png");
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+.rotate {
+    -webkit-animation: rotating 1.2s linear infinite;
+    -moz-animation: rotating 1.2s linear infinite;
+    -o-animation: rotating 1.2s linear infinite;
+    animation: rotating 1.2s linear infinite;
 }
 @-webkit-keyframes zoomIn {
     from {
