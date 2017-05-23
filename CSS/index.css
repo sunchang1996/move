@@ -175,17 +175,22 @@ html,body,.swiper-container,.swiper-slide{
 .page02 .logo {
     width: 2.2rem;
     height: 2.2rem;
+    background: url("../image/1.JPG") no-repeat center;
+    background-position: top;
+    background-size: cover;
     position: absolute;
     top: 1.5rem;
     left: 2rem;
+    border-radius: 50%;
+    opacity: 0;
+
+
 }
 .page02 .logo .logo-top{
     width: 100%;
     height: 100%;
-    border-radius: 50%;
-    opacity: 0;
 }
-#page02 .logo .logo-top{
+#page02 .logo{
     animation: rollIn 1s 2s 1 both;
 }
 .page02 .bg-five{
